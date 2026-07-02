@@ -120,8 +120,13 @@ Each IQ sample is represented as
 │   └── mcnet.py                    # Multi-column CNN architecture
 │
 ├── results/
-│   ├── cnn/                        # CNN training results
-│   └── dnn/                        # DNN training results
+│   ├── dnn/                        # DNN training results
+│   ├── 
+│   ├── 
+.
+.
+.
+│   └── cnn/                        # CNN training results
 │
 └── automatic_modulation_classification.ipynb
                                  # Main notebook for training,

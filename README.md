@@ -112,16 +112,12 @@ Each IQ sample is represented as
 │
 ├── DeepLearning/
 │   ├── __init__.py
-│   ├── amc_dataset.py              # Dataset loader and preprocessing
 │   ├── cnn1.py                     # CNN1 model
 │   ├── cnn2.py                     # VT-CNN2 model
-│   ├── cnn3.py                     # CNN3 model
-│   ├── dnn.py                      # Fully-connected DNN baseline
-│   └── mcnet.py                    # Multi-column CNN architecture
+│   └── dnn.py                      # Fully-connected DNN baseline
 │
 ├── results/
 │   ├── dnn/                        # DNN training results
-│   ├── 
 │   ├── 
 .
 .

@@ -12,9 +12,9 @@ This repository reproduces the well-known VT-CNN2 model and others for **Automat
 
 # Overview
 
-Automatic Modulation Classification (AMC) is an important task in modern wireless communications, cognitive radio, spectrum sensing, and electronic warfare.
+Automatic Modulation Classification (AMC) is an important task in modern wireless communications, cognitive radio, and spectrum sensing.
 
-VT-CNN2 was one of the first deep learning architectures demonstrating that raw IQ samples can outperform handcrafted expert features for modulation recognition, particularly at low SNR.
+VT-CNN2 was one of the first deep learning architectures demonstrating that raw IQ samples can outperform expert features for modulation recognition, particularly at low SNR.
 
 The original paper proposed a shallow convolutional neural network operating directly on complex-valued IQ samples represented as two real-valued channels (I and Q).
 
@@ -76,22 +76,12 @@ Softmax
 The implementation supports
 
 - RadioML2016.10A
-- RadioML2016.10B
-- RadioML2018.01A (optional)
 
 Each IQ sample is represented as
 
 ```
 128 × 2
 ```
-
-or
-
-```
-1024 × 2
-```
-
-depending on the selected dataset.
 
 ---
 

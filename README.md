@@ -104,28 +104,28 @@ Each IQ sample is represented as
 
 ```
 .
-├── data/
-│   ├── RML2016.10A.pkl
-│   └── RML2018.01A.h5
+├── .vscode/
 │
-├── models/
-│   └── vtcnn2.py
+├── datasets/
+│   ├── RML2016.pkl                 # RadioML 2016.10A dataset
+│   └── RML2016_metadata.pkl        # Dataset metadata
 │
-├── notebooks/
-│   └── VT_CNN2.ipynb
+├── DeepLearning/
+│   ├── __init__.py
+│   ├── amc_dataset.py              # Dataset loader and preprocessing
+│   ├── cnn1.py                     # CNN1 model
+│   ├── cnn2.py                     # VT-CNN2 model
+│   ├── cnn3.py                     # CNN3 model
+│   ├── dnn.py                      # Fully-connected DNN baseline
+│   └── mcnet.py                    # Multi-column CNN architecture
 │
 ├── results/
-│   ├── confusion_matrix/
-│   ├── accuracy_vs_snr/
-│   └── checkpoints/
+│   ├── cnn/                        # CNN training results
+│   └── dnn/                        # DNN training results
 │
-├── utils/
-│   ├── dataset.py
-│   ├── preprocessing.py
-│   └── metrics.py
-│
-├── requirements.txt
-└── README.md
+└── automatic_modulation_classification.ipynb
+                                 # Main notebook for training,
+                                 # evaluation, and visualization
 ```
 
 ---

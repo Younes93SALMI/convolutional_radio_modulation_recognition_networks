@@ -21,6 +21,7 @@ This implementation uses the **RadioML2016.10A** dataset introduced in:
 > arXiv:1602.04105, 2016.
 
 The dataset can be obtained from the official RadioML repository or other publicly available mirrors.
+e.g., https://www.kaggle.com/datasets/zaslee/rml2016-10a
 
 ## Directory structure
 

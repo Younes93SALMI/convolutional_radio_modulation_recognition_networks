@@ -85,6 +85,33 @@ Each IQ sample is represented as
 
 ---
 
+---
+
+# Dataset Requirement ⚠️
+
+Due to GitHub's file size limitations, the **RadioML2016.10A dataset is not included** in this repository.
+
+Before running any notebook or training a model, you **must** download the dataset and place the required files inside the `datasets/` directory.
+
+The expected directory structure is
+
+```text
+datasets/
+├── README.md
+├── RML2016.pkl
+└── RML2016_metadata.pkl
+```
+
+Instructions for obtaining and placing the dataset are provided in
+
+```text
+datasets/README.md
+```
+
+The implementation expects these filenames and locations. Renaming or relocating the files may result in dataset loading errors.
+
+---
+
 # Features
 
 - Reproduction of the VT-CNN2 architecture

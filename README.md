@@ -77,7 +77,7 @@ The implementation supports
 
 - RadioML2016.10A
 
-Each IQ sample is represented as
+Each IQ example is represented as
 
 ```
 128 × 2

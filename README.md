@@ -260,7 +260,7 @@ Accuracy vs SNR
 
 ---
 
-# Reference
+# References
 
 If you use this repository, please have a look at my papers:
 

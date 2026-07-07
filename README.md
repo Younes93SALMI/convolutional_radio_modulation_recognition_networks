@@ -262,17 +262,47 @@ Accuracy vs SNR
 
 # Reference
 
-If you use this repository, please cite the original paper:
+If you use this repository, please have a look at my papers:
 
 ```bibtex
-@article{oshea2016cnn,
-  title={Convolutional Radio Modulation Recognition Networks},
-  author={O'Shea, Timothy J. and Corgan, Johnathan and Clancy, T. Charles},
-  journal={arXiv preprint arXiv:1602.04105},
-  year={2016}
+@article{salmi2026xai,
+  title={XAI-Guided Physical Adversarial Machine Learning Attacks on Automatic Modulation Classification},
+  author={Salmi, Younes and Bogucka, Hanna},
+  journal={IEEE Journal on Selected Areas in Communications},
+  year={2026},
+  publisher={IEEE}
 }
 ```
-
+```bibtex
+@inproceedings{salmi2025physical,
+  title={Physical backdoor attack against deep learning-based modulation classification},
+  author={Salmi, Younes and Bogucka, Hanna},
+  booktitle={2025 IEEE International Mediterranean Conference on Communications and Networking (MeditCom)},
+  pages={1--6},
+  year={2025},
+  organization={IEEE}
+}
+```
+```bibtex
+@inproceedings{salmi2025mitigating,
+  title={Mitigating evasion attacks in fog computing resource provisioning through proactive hardening},
+  author={Salmi, Younes and Bogucka, Hanna},
+  booktitle={2025 Joint European Conference on Networks and Communications \& 6G Summit (EuCNC/6G Summit)},
+  pages={769--774},
+  year={2025},
+  organization={IEEE}
+}
+```
+```bibtex
+@inproceedings{salmi2026vulnerability,
+  title={On the Vulnerability of Deep Automatic Modulation Classifiers to Explainable Backdoor Threats},
+  author={Salmi, Younes and Bogucka, Hanna},
+  booktitle={2026 IEEE 23rd Consumer Communications \& Networking Conference (CCNC)},
+  pages={1--4},
+  year={2026},
+  organization={IEEE}
+}
+```
 ---
 
 # Acknowledgements
